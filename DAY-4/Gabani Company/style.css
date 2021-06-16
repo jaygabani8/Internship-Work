@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 30px 0;
+    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #333333;
+    background: #D4D4D4;
+}
+
+h1 {
+    padding: 210px 0 0 570px;
+    font-size: 48px;
+    letter-spacing: -2px;
+    color: #F3E14A;
+}
+
+h1 a, h1 a:hover {
+    text-decoration: none;
+    color: #F3E14A;
+}
+
+h2 {
+    color: #86B226;
+}
+
+p {
+    padding: 10px 0;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+p#subtitle {
+    padding: 0 0 0 570px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: underline;
+    color: #547594;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#page {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#header {
+    border: 3px solid #E3E3E3;
+    border-top: 3px solid #ECEDB1;
+}
+
+#menu {
+    height: 64px;
+    background: #9FA225 url('images/menu.gif') repeat-x;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+}
+
+#menu ul li a {
+    padding: 0 0 0 70px;
+    font-size: 14px;
+    line-height: 64px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: -1px -1px 1px #91941E;
+    color: #FFFFFF;
+}
+
+#menu ul li a:hover {
+    color: #E7E8CB;
+}
+
+#logo {
+    height: 378px;
+    background: #254844 url('images/img.jpg') no-repeat;
+
+}
+
+#middle {
+    padding: 60px 30px 0 30px;
+}
+
+#content {
+    float: left;
+    width: 540px;
+}
+
+.head {
+    position: relative;
+    float: left;
+    padding-left: 10px;
+    background: #DCDCDC url('images/h2.gif') no-repeat;
+}
+
+#content h2 {
+    position: relative;
+    float: left;
+    padding-right: 10px;
+    font-size: 30px;
+    line-height: 44px;
+    background: url('images/h2end.gif') no-repeat right top;
+}
+
+.box {
+    clear: both;
+    padding: 24px 0 30px 0;
+}
+
+#sidebar {
+    float: right;
+    width: 290px;
+}
+
+#sidebar h2 {
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 20px 0 40px 0;
+}
+
+#sidebar ul li {
+    padding: 5px 10px;
+    line-height: 22px;
+    border-bottom: 1px dashed #BBBBBB;
+}
+
+#sidebar ul li a {
+    padding: 0;
+}
+
+#bottom {
+    clear: both;
+    padding: 24px 0 30px 27px;
+    height: 1%;
+    background: #C4C5C6;
+    border: 3px solid #DBDBDB;
+}
+
+#bottom h2 {
+    padding-bottom: 10px;
+}
+
+#col1, #col2, #col3 {
+    float: left;
+    padding: 0 27px 110px 0;
+    width: 281px;
+    height: 120px;
+}
+
+#col1 {
+    background: url('images/img2.png') no-repeat bottom left;
+}
+
+#col2 {
+    background: url('images/img3.png') no-repeat bottom left;
+}
+
+#col3 {
+    background: url('images/img4.png') no-repeat bottom left;
+}
+
+.clearing {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+#footer {
+    clear: both;
+    padding-top: 30px;
+}
+
+#footer p {
+    line-height: 40px;
+    text-align: center;
+}
